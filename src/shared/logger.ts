@@ -1,5 +1,5 @@
 import { createLogger, format, transports } from 'winston'
-const { combine, timestamp, label, printf, prettyPrint } = format
+const { combine, timestamp, label, printf } = format
 import DailyRotateFile from 'winston-daily-rotate-file'
 
 import path from 'path'
@@ -14,7 +14,7 @@ const myFormat = printf(({ level, message, label, timestamp }) => {
 
 export const logger = createLogger({
   level: 'info',
-  format: combine(label({ label: 'UM' }), timestamp(), myFormat, prettyPrint()),
+  format: combine(label({ label: 'UM' }), timestamp(), myFormat),
   transports: [
     new transports.Console(),
     new DailyRotateFile({
@@ -34,7 +34,7 @@ export const logger = createLogger({
 })
 export const erroLogger = createLogger({
   level: 'error',
-  format: combine(label({ label: 'PH' }), timestamp(), myFormat),
+  format: combine(label({ label: 'UM' }), timestamp(), myFormat),
   transports: [
     new transports.Console(),
     new DailyRotateFile({
