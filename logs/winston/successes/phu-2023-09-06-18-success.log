@@ -1,0 +1,12 @@
+{
+  message: 'Application listening on port 5000',
+  level: 'info',
+  label: 'UM',
+  timestamp: '2023-06-09T12:46:03.806Z'
+}
+{
+  message: 'Application listening on port 5000',
+  level: 'info',
+  label: 'UM',
+  timestamp: '2023-06-09T12:47:24.947Z'
+}

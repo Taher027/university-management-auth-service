@@ -1,0 +1,60 @@
+{
+  message: 'Application listening on port 5000',
+  level: 'info',
+  label: 'UM',
+  timestamp: '2023-06-10T15:45:06.184Z'
+}
+{
+  message: 'Application listening on port 5000',
+  level: 'info',
+  label: 'UM',
+  timestamp: '2023-06-10T15:51:29.032Z'
+}
+{
+  message: 'Application listening on port 5000',
+  level: 'info',
+  label: 'UM',
+  timestamp: '2023-06-10T15:51:41.096Z'
+}
+{
+  message: 'Application listening on port 5000',
+  level: 'info',
+  label: 'UM',
+  timestamp: '2023-06-10T15:51:50.313Z'
+}
+{
+  message: 'Application listening on port 5000',
+  level: 'info',
+  label: 'UM',
+  timestamp: '2023-06-10T15:54:16.104Z'
+}
+{
+  message: 'Application listening on port 5000',
+  level: 'info',
+  label: 'UM',
+  timestamp: '2023-06-10T15:54:30.703Z'
+}
+{
+  message: 'Application listening on port 5000',
+  level: 'info',
+  label: 'UM',
+  timestamp: '2023-06-10T15:56:22.521Z'
+}
+{
+  message: 'Application listening on port 5000',
+  level: 'info',
+  label: 'UM',
+  timestamp: '2023-06-10T15:56:30.746Z'
+}
+{
+  message: 'Application listening on port 5000',
+  level: 'info',
+  label: 'UM',
+  timestamp: '2023-06-10T15:56:39.149Z'
+}
+{
+  message: 'Application listening on port 5000',
+  level: 'info',
+  label: 'UM',
+  timestamp: '2023-06-10T15:56:45.691Z'
+}
