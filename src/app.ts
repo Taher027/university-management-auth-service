@@ -3,6 +3,7 @@ import cors from 'cors';
 // import globalErrorHandler from './app/middlewares/globalErrorHandler'
 import { UserRoutes } from './app/modules/user/user.route';
 import globalErrorHandler from './app/middlewares/globalErrorHandler';
+import { academicSemesterRoutes } from './app/modules/academicSemester/academicSemister.route';
 const app: Application = express();
 
 // middle ware
@@ -13,6 +14,7 @@ app.use(express.urlencoded({ extended: true }));
 // application router
 
 app.use('/api/v1/users', UserRoutes);
+app.use('/api/v1/academic-semesters', academicSemesterRoutes);
 
 // App test
 app.get('/', (req: Request, res: Response) => {
