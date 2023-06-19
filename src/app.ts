@@ -1,9 +1,7 @@
 import express, { Application, Request, Response } from 'express';
 import cors from 'cors';
-// import globalErrorHandler from './app/middlewares/globalErrorHandler'
-import { UserRoutes } from './app/modules/user/user.route';
 import globalErrorHandler from './app/middlewares/globalErrorHandler';
-import { academicSemesterRoutes } from './app/modules/academicSemester/academicSemister.route';
+import routes from './app/routes';
 const app: Application = express();
 
 // middle ware
@@ -13,8 +11,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 // application router
 
-app.use('/api/v1/users', UserRoutes);
-app.use('/api/v1/academic-semesters', academicSemesterRoutes);
+app.use('/api/v1/', routes);
 
 // App test
 app.get('/', (req: Request, res: Response) => {
